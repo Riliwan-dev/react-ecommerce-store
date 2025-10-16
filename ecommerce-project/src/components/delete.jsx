@@ -19,26 +19,26 @@
         if{sender === 'user' && (<img src="user.png" width="20" alt="user"/>)}
 
         }
-    //   return (
-    //     <>
-    //       <div>
-    //         <img src="user.png" width="20" alt="user"/>
-    //         Hello Chatbot
-    //       </div>
-    //       <div>
-    //         <img src="robot.png" width="20" alt="robot"/>
-    //         How can I help you?
-    //       </div>
-    //       <div>
-    //         <img src="user.png" width="20" alt="user"/>
-    //         Tell me a joke
-    //       </div>
-    //       <div>
-    //         <img src="robot.png" width="20" alt="robot"/>
-    //         Get out!
-    //       </div>
-    //     </>
-    //   );
+      return (
+        <>
+          <div>
+            <img src="user.png" width="20" alt="user"/>
+            Hello Chatbot
+          </div>
+          <div>
+            <img src="robot.png" width="20" alt="robot"/>
+            How can I help you?
+          </div>
+          <div>
+            <img src="user.png" width="20" alt="user"/>
+            Tell me a joke
+          </div>
+          <div>
+            <img src="robot.png" width="20" alt="robot"/>
+            Get out!
+          </div>
+        </>
+      );
     }   
 
     function Output(){
